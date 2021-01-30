@@ -1,0 +1,16 @@
+﻿<Window x:Class="tic_tac_toe_game.Draw"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Draw" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="&#xD;&#xA;   A Draw!!" FontSize="48">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF13DA27" Offset="0.996"/>
+                    <GradientStop Color="#FF12D8AC"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+
+    </Grid>
+</Window>

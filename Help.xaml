@@ -1,0 +1,16 @@
+﻿<Window x:Class="tic_tac_toe_game.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" Height="616.313" Width="657.95"  WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF25E211" Offset="1"/>
+            <GradientStop Color="#FF24DEAC"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <StackPanel>
+        <Label Content="Tic Tac Toe" Height="87" FontSize="48"/>
+        <Label Content="&#xA;&#xA;&#xA;&#xA;This game is Tic Tac Toe Two players, each player chooses a sign, X or O.&#xA; The first player places his mark somewhere on the board.&#xA; Then the other player placed his mark and repeated until &#xA;one of the players created a sequence of three symbols&#xA; in one row, one column or one diagonal and thus he won or&#xA; until the entire board filled up and none of the&#xA; players could create a sequence, in which case the score was a draw" FontSize="20" Height="439"/>
+        <Button Content="Back " Height="46" Background="{x:Null}" FontSize="24" Click="Button_Click"/>
+    </StackPanel>
+</Window>
